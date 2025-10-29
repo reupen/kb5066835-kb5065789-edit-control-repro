@@ -1,5 +1,8 @@
 ﻿# KB5066835 and KB5065789 Win32 edit control breakage repro
 
+> [!NOTE]  
+> This bug was fixed in the [KB5067036 preview update](https://support.microsoft.com/en-gb/topic/october-28-2025-kb5067036-os-builds-26200-7019-and-26100-7019-preview-ec3da7dc-63ba-4b1d-ac41-cf2494d2123a#id0ebdj=normal_rollout) released on 28 October 2025.
+
 This project is a simple repro for how KB5065789 and KB5066835 break multiline Win32 
 edit controls in tabbed dialogue boxes that use `EnableThemeDialogTexture()` with the
 `ETDT_ENABLETAB` flag (something that has worked for decades).
